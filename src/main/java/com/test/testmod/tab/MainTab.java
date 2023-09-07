@@ -6,6 +6,7 @@ import net.minecraft.world.item.Items;
 public class MainTab {
     public static final Item[] items = {
             Items.COMMAND_BLOCK,
-            Items.BARRIER
+            Items.BARRIER,
+            Items.LIGHT
     };
 }

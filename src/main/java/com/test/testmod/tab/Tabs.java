@@ -15,7 +15,7 @@ public class Tabs {
     public static final DeferredRegister<CreativeModeTab> MOD_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TestMod.MODID);
 
     public static final RegistryObject<CreativeModeTab> TEST_MAIN = MOD_TABS.register("test_main",
-            () ->{
+            () -> {
                 return CreativeModeTab.builder()
                 .icon(()->new ItemStack(Blocks.COMMAND_BLOCK))
                 .title(Component.translatable("itemGroup.test_main"))
