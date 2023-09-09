@@ -11,6 +11,7 @@ public class TestMod {
 
     public TestMod() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+        ItemInit.ITEMS.register(bus);
         Tabs.MOD_TABS.register(bus);
     }
 }
