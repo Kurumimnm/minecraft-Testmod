@@ -1,5 +1,7 @@
 package com.test.testmod;
 
+import com.test.testmod.init.BlockInit;
+import com.test.testmod.init.ItemInit;
 import com.test.testmod.tab.Tabs;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -12,6 +14,7 @@ public class TestMod {
     public TestMod() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemInit.ITEMS.register(bus);
+        BlockInit.BLOCKS.register(bus);
         Tabs.MOD_TABS.register(bus);
     }
 }

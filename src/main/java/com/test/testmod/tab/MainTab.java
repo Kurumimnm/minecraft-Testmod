@@ -1,6 +1,6 @@
 package com.test.testmod.tab;
 
-import com.test.testmod.ItemInit;
+import com.test.testmod.init.ItemInit;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 

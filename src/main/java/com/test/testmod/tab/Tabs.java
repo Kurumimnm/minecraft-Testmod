@@ -1,7 +1,7 @@
 package com.test.testmod.tab;
 
-import com.test.testmod.ItemInit;
 import com.test.testmod.TestMod;
+import com.test.testmod.init.ItemInit;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
