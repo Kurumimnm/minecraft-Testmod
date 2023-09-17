@@ -1,6 +1,7 @@
 package com.test.testmod.tab;
 
 import com.test.testmod.TestMod;
+import com.test.testmod.init.ItemInit;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,7 +18,7 @@ public class Tabs {
     public static final RegistryObject<CreativeModeTab> TEST_MAIN = MOD_TABS.register("test_main",
             () -> {
                 return CreativeModeTab.builder()
-                .icon(()->new ItemStack(Blocks.COMMAND_BLOCK))
+                .icon(()->new ItemStack(ItemInit.Testomato.get()))
                 .title(Component.translatable("itemGroup.test_main"))
                 .displayItems((param,output) -> {
                     for(Item item:MainTab.items) {
