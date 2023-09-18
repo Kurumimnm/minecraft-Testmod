@@ -1,6 +1,15 @@
 {
   "itemGroup.test_main": "Test",
-  "itemGroup.test_sub": "Test_Sub",
+  "itemGroup.test_sub": "Test Sub",
   "item.testmod.testomato": "Testomato",
-  "block.testmod.testomato_block": "Testomato_block"
+  "block.testmod.testomato_block": "Testomato Block",
+  "item.testmod.testomato_sword": "Testomato Sword",
+  "item.testmod.testomato_pickaxe": "Testomato Pickaxe",
+  "item.testmod.testomato_shovel": "Testomato Shovel",
+  "item.testmod.testomato_axe": "Testomato Axe",
+  "item.testmod.testomato_hoe": "Testomato Hoe",
+  "item.testmod.testomato_helmet": "Testomato Helmet",
+  "item.testmod.testomato_chestplate": "Testomato Chestplate",
+  "item.testmod.testomato_leggings": "Testomato Leggings",
+  "item.testmod.testomato_boots": "Testomato Boots"
 }

@@ -1,9 +1,6 @@
 package com.test.testmod;
 
-import com.test.testmod.init.BlockInit;
-import com.test.testmod.init.BlockItemInit;
-import com.test.testmod.init.CreativeTabInit;
-import com.test.testmod.init.ItemInit;
+import com.test.testmod.init.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -17,6 +14,8 @@ public class TestMod {
         ItemInit.ITEMS.register(bus);
         BlockItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
+        ToolInit.ITEMS.register(bus);
+        ArmorInit.ITEMS.register(bus);
         CreativeTabInit.TABS.register(bus);
     }
 }

@@ -2,5 +2,14 @@
   "itemGroup.test_main": "テスト",
   "itemGroup.test_sub": "テストサブ",
   "item.testmod.testomato": "テストマト",
-  "block.testmod.testomato_block": "テストマトブロック"
+  "block.testmod.testomato_block": "テストマトブロック",
+  "item.testmod.testomato_sword": "テストマトの剣",
+  "item.testmod.testomato_pickaxe": "テストマトのツルハシ",
+  "item.testmod.testomato_shovel": "テストマトのシャベル",
+  "item.testmod.testomato_axe": "テストマトの斧",
+  "item.testmod.testomato_hoe": "テストマトのクワ",
+  "item.testmod.testomato_helmet": "テストマトのヘルメット",
+  "item.testmod.testomato_chestplate": "テストマトのチェストプレート",
+  "item.testmod.testomato_leggings": "テストマトのレギンス",
+  "item.testmod.testomato_boots": "テストマトのブーツ"
 }
