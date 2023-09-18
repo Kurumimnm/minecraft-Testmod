@@ -1,4 +1,6 @@
 {
   "itemGroup.test_main": "テスト",
-  "item.testmod.testomato": "テストマト"
+  "itemGroup.test_sub": "テストサブ",
+  "item.testmod.testomato": "テストマト",
+  "block.testmod.testomato_block": "テストマトブロック"
 }

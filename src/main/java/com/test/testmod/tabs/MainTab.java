@@ -1,5 +1,6 @@
-package com.test.testmod.tab;
+package com.test.testmod.tabs;
 
+import com.test.testmod.init.BlockItemInit;
 import com.test.testmod.init.ItemInit;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -9,6 +10,7 @@ public class MainTab {
             Items.COMMAND_BLOCK,
             Items.BARRIER,
             Items.LIGHT,
-            ItemInit.Testomato.get()
+            ItemInit.TESTOMATO.get(),
+            BlockItemInit.TESTOMATO_BLOCK.get()
     };
 }

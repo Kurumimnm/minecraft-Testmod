@@ -1,4 +1,6 @@
 {
   "itemGroup.test_main": "Test",
-  "item.testmod.testomato": "Testomato"
+  "itemGroup.test_sub": "Test_Sub",
+  "item.testmod.testomato": "Testomato",
+  "block.testmod.testomato_block": "Testomato_block"
 }
