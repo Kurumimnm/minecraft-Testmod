@@ -18,6 +18,7 @@ public class TestSub {
             ArmorInit.TESTOMATO_HELMET.get(),
             ArmorInit.TESTOMATO_CHESTPLATE.get(),
             ArmorInit.TESTOMATO_LEGGINGS.get(),
-            ArmorInit.TESTOMATO_BOOTS.get()
+            ArmorInit.TESTOMATO_BOOTS.get(),
+            ItemInit.TEST_ENTITY.get()
     };
 }

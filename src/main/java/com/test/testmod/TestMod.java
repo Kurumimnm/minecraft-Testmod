@@ -16,6 +16,7 @@ public class TestMod {
         BlockInit.BLOCKS.register(bus);
         ToolInit.ITEMS.register(bus);
         ArmorInit.ITEMS.register(bus);
+        EntityInit.ENTITIES.register(bus);
         CreativeTabInit.TABS.register(bus);
     }
 }

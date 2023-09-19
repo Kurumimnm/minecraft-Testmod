@@ -11,5 +11,7 @@
   "item.testmod.testomato_helmet": "テストマトのヘルメット",
   "item.testmod.testomato_chestplate": "テストマトのチェストプレート",
   "item.testmod.testomato_leggings": "テストマトのレギンス",
-  "item.testmod.testomato_boots": "テストマトのブーツ"
+  "item.testmod.testomato_boots": "テストマトのブーツ",
+  "entity.testmod.test_entity": "テストちゃん",
+  "item.testmod.test_spawn_egg": "テストのスポーンエッグ"
 }
