@@ -22,4 +22,6 @@ public class ItemInit {
 
     public static final RegistryObject<ForgeSpawnEggItem> TEST_ENTITY = ITEMS.register("test_spawn_egg",
             () -> new ForgeSpawnEggItem(EntityInit.TEST_ENTITY, 0xF0ABD1, 0xAE4C82, new Item.Properties()));
+    public static final RegistryObject<ForgeSpawnEggItem> CROCODILE = ITEMS.register("crocodile_spawn_egg",
+            () -> new ForgeSpawnEggItem(EntityInit.CROCODILE, 0xAAAAAA, 0x000000, new Item.Properties()));
 }

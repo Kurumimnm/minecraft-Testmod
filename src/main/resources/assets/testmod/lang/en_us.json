@@ -13,5 +13,7 @@
   "item.testmod.testomato_leggings": "Testomato Leggings",
   "item.testmod.testomato_boots": "Testomato Boots",
   "entity.testmod.test_entity": "Test Entity",
-  "item.testmod.test_spawn_egg": "Test Spawn Egg"
+  "item.testmod.test_spawn_egg": "Test Spawn Egg",
+  "entity.testmod.crocodile": "Crocodile",
+  "item.testmod.crocodile_spawn_egg": "Crocodile Spawn Egg"
 }

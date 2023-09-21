@@ -13,5 +13,7 @@
   "item.testmod.testomato_leggings": "テストマトのレギンス",
   "item.testmod.testomato_boots": "テストマトのブーツ",
   "entity.testmod.test_entity": "テストちゃん",
-  "item.testmod.test_spawn_egg": "テストのスポーンエッグ"
+  "item.testmod.test_spawn_egg": "テストのスポーンエッグ",
+  "entity.testmod.crocodile": "ワニ",
+  "item.testmod.crocodile_spawn_egg": "ワニのスポーンエッグ"
 }

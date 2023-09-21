@@ -2,6 +2,8 @@ package com.test.testmod.events;
 
 import com.test.testmod.TestMod;
 import com.test.testmod.client.model.TestEntityModel;
+import com.test.testmod.client.model.CrocodileModel;
+import com.test.testmod.client.renderer.CrocodileRenderer;
 import com.test.testmod.client.renderer.TestEntityRenderer;
 import com.test.testmod.init.EntityInit;
 import net.minecraftforge.api.distmarker.Dist;
@@ -14,10 +16,12 @@ public class ClientModEvents {
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(EntityInit.TEST_ENTITY.get(), TestEntityRenderer::new);
+        event.registerEntityRenderer(EntityInit.CROCODILE.get(), CrocodileRenderer::new);
     }
 
     @SubscribeEvent
     public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(TestEntityModel.LAYER_LOCATION, TestEntityModel::createBodyLayer);
+        event.registerLayerDefinition(CrocodileModel.LAYER_LOCATION, CrocodileModel::createBodyLayer);
     }
 }

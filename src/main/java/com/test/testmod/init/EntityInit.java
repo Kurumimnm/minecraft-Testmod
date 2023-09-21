@@ -1,6 +1,7 @@
 package com.test.testmod.init;
 
 import com.test.testmod.TestMod;
+import com.test.testmod.entity.Crocodile;
 import com.test.testmod.entity.TestEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -16,5 +17,11 @@ public class EntityInit {
             () -> EntityType.Builder.<TestEntity>of(TestEntity::new, MobCategory.CREATURE)
                     .sized(1.0f,1.0f)
                     .build(new ResourceLocation(TestMod.MODID, "test_entity").toString())
+    );
+
+    public static final RegistryObject<EntityType<Crocodile>> CROCODILE = ENTITIES.register("crocodile",
+            () -> EntityType.Builder.<Crocodile>of(Crocodile::new, MobCategory.MONSTER)
+                    .sized(1.0f, 1.0f)
+                    .build(new ResourceLocation(TestMod.MODID, "crocodile").toString())
     );
 }
