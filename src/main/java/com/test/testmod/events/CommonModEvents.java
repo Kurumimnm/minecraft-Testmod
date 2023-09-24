@@ -3,6 +3,7 @@ package com.test.testmod.events;
 import com.test.testmod.TestMod;
 import com.test.testmod.entity.Crocodile;
 import com.test.testmod.entity.TestEntity;
+import com.test.testmod.entity.TestVillager;
 import com.test.testmod.init.EntityInit;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.level.levelgen.Heightmap;
@@ -18,6 +19,9 @@ public class CommonModEvents {
         event.put(EntityInit.TEST_ENTITY.get(), TestEntity.createTestAttributes().build());
 
         event.put(EntityInit.CROCODILE.get(), Crocodile.createAttributes().build());
+
+        event.put(EntityInit.TEST_VILLAGER.get(), TestVillager.createTestAttributes().build());
+
     }
 
     @SubscribeEvent
@@ -35,6 +39,14 @@ public class CommonModEvents {
                 SpawnPlacements.Type.ON_GROUND,
                 Heightmap.Types.WORLD_SURFACE,
                 Crocodile::canSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+
+        event.register(
+                EntityInit.TEST_VILLAGER.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.WORLD_SURFACE,
+                TestVillager::canSpawn,
                 SpawnPlacementRegisterEvent.Operation.OR
         );
     }

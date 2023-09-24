@@ -15,5 +15,7 @@
   "entity.testmod.test_entity": "テストちゃん",
   "item.testmod.test_spawn_egg": "テストのスポーンエッグ",
   "entity.testmod.crocodile": "ワニ",
-  "item.testmod.crocodile_spawn_egg": "ワニのスポーンエッグ"
+  "item.testmod.crocodile_spawn_egg": "ワニのスポーンエッグ",
+  "entity.testmod.test_villager": "テストの介",
+  "item.testmod.test_villager_spawn_egg": "村人「テストの介」のスポーンエッグ"
 }

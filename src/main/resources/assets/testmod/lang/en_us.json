@@ -15,5 +15,7 @@
   "entity.testmod.test_entity": "Test Entity",
   "item.testmod.test_spawn_egg": "Test Spawn Egg",
   "entity.testmod.crocodile": "Crocodile",
-  "item.testmod.crocodile_spawn_egg": "Crocodile Spawn Egg"
+  "item.testmod.crocodile_spawn_egg": "Crocodile Spawn Egg",
+  "entity.testmod.test_villager": "Test Villager",
+  "item.testmod.test_villager_spawn_egg": "Test Villager Spawn Egg"
 }

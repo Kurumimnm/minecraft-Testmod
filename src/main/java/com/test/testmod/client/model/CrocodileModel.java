@@ -50,13 +50,14 @@ public class CrocodileModel<T extends Crocodile> extends HierarchicalModel<T> {
 	@Override
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		root().getAllParts().forEach(ModelPart::resetPose);
-		animate(entity.idleAnimationState, CrocodileAnimation.IDEL,ageInTicks);
-//		animate(entity.attackAnimState, CrocodileAnimation.ATTACK, ageInTicks);
-		if(!entity.isInWaterOrBubble()) {
+
+		animate(entity.idleAnimationState, CrocodileAnimation.IDEL, ageInTicks);
+		if (!entity.isInWaterOrBubble()) {
 			animateWalk(CrocodileAnimation.WALK, limbSwing, limbSwingAmount, 1.0F, 2.5F);
-		}else {
+		} else {
 			// TODO: Swim animation
 		}
+
 	}
 
 	@Override

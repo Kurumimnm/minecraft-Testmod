@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#minecraft:is_overworld",
+  "spawners": {
+    "type": "testmod:test_villager",
+    "weight": 75,
+    "minCount": 2,
+    "maxCount": 8
+  }
+}
